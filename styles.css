@@ -1,0 +1,41 @@
+body {
+
+    background: linear-gradient(to right, lightblue, white);
+
+}
+
+.passwordVal {
+
+    width: 90%;
+    max-width: 250px;
+    background-color: white;
+    margin:500px 500px auto;
+    padding: 5px 20px;
+    border-radius: 25px;
+    display: flex;
+    border: 1px solid black;
+    
+}
+
+.passwordVal:hover {
+    
+    transition: border-color 0.3s ease; 
+    border-color: #a6671f; 
+    
+}
+
+input {
+
+    outline: none;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    
+}
+
+.strengthMessage {
+
+    margin-left: 500px;
+
+}
+
